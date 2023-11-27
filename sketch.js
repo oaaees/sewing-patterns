@@ -3,10 +3,7 @@ function setup() {
   }
   
   function draw() {
-    if (mouseIsPressed) {
-      fill(0);
-    } else {
-      fill(255);
-    }
-    ellipse(mouseX, mouseY, 80, 80);
+    translate(windowWidth/2, windowHeight/2);
+    ellipse(0,0, 160, 160);
+    ellipse(0,0, 80, 80);
   }
